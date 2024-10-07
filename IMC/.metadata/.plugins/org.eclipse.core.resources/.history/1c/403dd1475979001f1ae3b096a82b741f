@@ -1,0 +1,10 @@
+package temperatura;
+
+public class TemperaturaDia {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

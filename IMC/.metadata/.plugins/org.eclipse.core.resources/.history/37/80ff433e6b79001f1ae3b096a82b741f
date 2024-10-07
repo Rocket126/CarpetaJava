@@ -1,0 +1,44 @@
+package ejercicio1Ejercicio2;
+
+import java.util.Scanner;
+
+public class MenuSwitch {
+
+	public static void main(String[] args) {
+		
+		int opn;
+		float saldoInicial = 1000, saldo, deposito;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("1.-Depositar \n2.-Retirar \n3.-Salir ");
+		opn = sc.nextInt();
+		
+		
+		switch(opn)
+		{
+		case 1:
+			System.out.println("su saldo inicial es de: 1000");
+			
+			System.out.println("Ingrese su monto a depositar");
+			deposito = sc.nextInt();
+			saldo = saldoInicial + deposito;
+			
+			System.out.println("Saldo actual es: "+saldo);
+			System.out.println("Gracias por operar con nosotros");
+			break;
+			
+		case 2:
+			
+			
+			break;
+			
+		case 3:
+			
+			break;
+		}
+		
+		
+	}
+
+}

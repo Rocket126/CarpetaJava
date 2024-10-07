@@ -1,0 +1,14 @@
+package ejercicio1Ejercicio2;
+
+public class MenuSwitch {
+
+	public static void main(String[] args) {
+		
+		System.out.println("1.-Depositar \n2.-Retirar \n3.-Salir ");
+		
+		
+		
+		
+	}
+
+}
